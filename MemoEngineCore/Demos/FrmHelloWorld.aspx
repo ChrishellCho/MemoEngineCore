@@ -11,6 +11,10 @@
     <form id="form1" runat="server">
         <div>
           <h1>안녕하세요 ASP.NET</h1>
+          <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+          <asp:TextBox ID="txtInput" runat="server"></asp:TextBox>
+          <asp:Button ID="btnClick" runat="server" Text="Button" OnClick="btnClick_Click"/>
+          <asp:Label ID="lblDisplay" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>
